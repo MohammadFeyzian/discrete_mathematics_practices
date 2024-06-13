@@ -26,11 +26,4 @@ def find_number():
     print(f"Answers: {ans}")
 
 
-def print_number(num):
-    if num > 0:
-        print("Number is " + str(num))
-    else:
-        print("There is no such a number")
-
-
 find_number()
