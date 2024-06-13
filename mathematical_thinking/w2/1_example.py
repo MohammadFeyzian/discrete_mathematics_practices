@@ -7,21 +7,13 @@
 # -----------------
 # Code solution
 def find_number():
-    print("Star t")
-    num = 0
+    print("Star")
+    ans = []
     for i in range(100000, 100999):
         if i % 9127 == 0:
-            num = i
-            break
+            ans.append(i)
 
-    print_number(num)
-
-
-def print_number(num):
-    if num > 0:
-        print("Number is " + str(num))
-    else:
-        print("There is no such a number")
+    print(f"Answers: {ans}")
 
 
 find_number()
