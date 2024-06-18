@@ -2,12 +2,12 @@
 def change(amount):
     if amount == 24:
         return [5, 5, 7, 7]
-    if amount == 22:
-        return [5, 5, 5, 7]
-    if amount == 21:
-        return [7, 7, 7]
-    if amount == 20:
-        return [5, 5, 5, 5]
+    if amount == 25:
+        return [5, 5, 5, 5, 5]
+    if amount == 26:
+        return [5, 7, 7, 7]
+    if amount == 28:
+        return [7, 7, 7, 7]
 
     if amount % 7 == 0:
         factor = 7
